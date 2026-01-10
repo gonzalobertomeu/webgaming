@@ -1,0 +1,3 @@
+[submodule "packages/wame"]
+	path = packages/wame
+	url = git@github.com:gonzalobertomeu/wame
