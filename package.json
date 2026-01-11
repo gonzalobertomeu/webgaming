@@ -2,11 +2,15 @@
   "name": "webgaming",
   "module": "index.ts",
   "type": "module",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
-  }
+  },
+  "workspaces": [
+    "packages/*",
+    "games/**/*"
+  ]
 }
